@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using Oxide.Patcher.Hooks;
+using uMod.Patcher.Hooks;
 
-namespace Oxide.Patcher.Views
+namespace uMod.Patcher.Views
 {
     public partial class SimpleHookSettingsControl : HookSettingsControl
     {

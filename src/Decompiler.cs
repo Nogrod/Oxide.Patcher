@@ -3,12 +3,12 @@ using ICSharpCode.Decompiler.Ast;
 using Mono.Cecil;
 using Mono.Cecil.Cil;
 using Mono.Collections.Generic;
-using Oxide.Patcher.Patching;
 using System;
 using System.Text;
 using System.Threading.Tasks;
+using uMod.Patcher.Patching;
 
-namespace Oxide.Patcher
+namespace uMod.Patcher
 {
     /// <summary>
     /// Contains code decompiling utility methods

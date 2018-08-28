@@ -1,13 +1,13 @@
 ﻿using ICSharpCode.TextEditor;
 using ICSharpCode.TextEditor.Document;
 using Mono.Cecil;
-using Oxide.Patcher.Hooks;
-using Oxide.Patcher.Modifiers;
-using Oxide.Patcher.Patching;
+using uMod.Patcher.Hooks;
+using uMod.Patcher.Modifiers;
+using uMod.Patcher.Patching;
 using System;
 using System.Windows.Forms;
 
-namespace Oxide.Patcher
+namespace uMod.Patcher
 {
     public partial class MethodViewControl : UserControl
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 
-using Oxide.Patcher.Hooks;
+using uMod.Patcher.Hooks;
 
-namespace Oxide.Patcher.Views
+namespace uMod.Patcher.Views
 {
     public class HookSettingsControl : UserControl
     {

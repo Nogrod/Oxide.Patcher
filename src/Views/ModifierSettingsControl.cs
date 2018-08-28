@@ -1,10 +1,10 @@
 ﻿using Mono.Cecil;
-using Oxide.Patcher.Modifiers;
+using uMod.Patcher.Modifiers;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace Oxide.Patcher.Views
+namespace uMod.Patcher.Views
 {
     public partial class ModifierSettingsControl : UserControl
     {

@@ -1,6 +1,6 @@
 ﻿using Mono.Cecil;
 
-namespace Oxide.Patcher.Deobfuscation
+namespace uMod.Patcher.Deobfuscation
 {
     /// <summary>
     /// Represents a deobfuscation method for a specific type of obfuscation

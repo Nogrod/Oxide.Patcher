@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Oxide.Patcher.Deobfuscation
+namespace uMod.Patcher.Deobfuscation
 {
     /// <summary>
     /// Contains methods for finding a deobfuscator

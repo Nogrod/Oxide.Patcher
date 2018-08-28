@@ -1,19 +1,19 @@
 ﻿using Mono.Cecil;
-using Oxide.Patcher.Fields;
-using Oxide.Patcher.Hooks;
-using Oxide.Patcher.Modifiers;
+using uMod.Patcher.Fields;
+using uMod.Patcher.Hooks;
+using uMod.Patcher.Modifiers;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
-using Exposure = Oxide.Patcher.Modifiers.Exposure;
+using Exposure = uMod.Patcher.Modifiers.Exposure;
 using FieldAttributes = Mono.Cecil.FieldAttributes;
 using MethodAttributes = Mono.Cecil.MethodAttributes;
 using TypeAttributes = Mono.Cecil.TypeAttributes;
 
-namespace Oxide.Patcher.Patching
+namespace uMod.Patcher.Patching
 {
     /// <summary>
     /// Responsible for performing the actual patch process
@@ -104,10 +104,10 @@ namespace Oxide.Patcher.Patching
         public void Patch()
         {
             // Load oxide assembly
-            string oxidefilename = Path.Combine(Application.StartupPath, "Oxide.Core.dll");
+            string oxidefilename = Path.Combine(Application.StartupPath, "uMod.dll");
             if (!File.Exists(oxidefilename))
             {
-                throw new FileNotFoundException("Failed to locate Oxide.Core.dll assembly");
+                throw new FileNotFoundException("Failed to locate uMod.dll assembly");
             }
 
             AssemblyDefinition oxideassembly = AssemblyDefinition.ReadAssembly(oxidefilename);

@@ -1,4 +1,4 @@
-﻿namespace Oxide.Patcher.Views
+﻿namespace uMod.Patcher.Views
 {
     partial class SimpleHookSettingsControl
     {

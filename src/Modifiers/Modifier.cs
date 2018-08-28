@@ -1,13 +1,13 @@
 ﻿using Mono.Cecil;
 using Newtonsoft.Json;
-using Oxide.Patcher.Patching;
-using Oxide.Patcher.Views;
+using uMod.Patcher.Patching;
+using uMod.Patcher.Views;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Oxide.Patcher.Modifiers
+namespace uMod.Patcher.Modifiers
 {
     public enum Exposure { Private, Protected, Public, Internal, Static, Null }
 

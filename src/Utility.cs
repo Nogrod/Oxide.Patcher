@@ -1,9 +1,9 @@
 ﻿using Mono.Cecil;
-using Oxide.Patcher.Hooks;
-using Oxide.Patcher.Modifiers;
 using System.Linq;
+using uMod.Patcher.Hooks;
+using uMod.Patcher.Modifiers;
 
-namespace Oxide.Patcher
+namespace uMod.Patcher
 {
     /// <summary>
     /// Contains helpful utility methods

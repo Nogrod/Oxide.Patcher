@@ -1,4 +1,4 @@
-﻿namespace Oxide.Patcher
+﻿namespace uMod.Patcher
 {
     partial class NewProjectForm
     {
